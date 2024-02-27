@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  app:startDestination="@id/fragmentUserList">
+
+  <fragment
+    android:id="@+id/fragmentUserList"
+    android:name="com.teixeira.usercrud.ui.users.UserListFragment"
+    android:label="@string/user_list" />
+
+  <fragment
+    android:id="@+id/fragmentUser"
+    android:name="com.teixeira.usercrud.ui.userdetails.UserDetailsFragment"
+    android:label="@string/add" />
+
+</navigation>

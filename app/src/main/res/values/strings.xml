@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">User Crud</string>
+  <string name="username">Username: %1$s</string>
+  <string name="email">Email: %1$s</string>
+  <string name="enter_username">Enter a username:</string>
+  <string name="enter_name">Enter a name:</string>
+  <string name="enter_email">Enter a email:</string>
+  <string name="enter_password">Enter a password:</string>
+  <string name="user_list">User List</string>
+
+  <string name="user_inserted">User was successfully inserted</string>
+  <string name="user_updated">User was successfully updated</string>
+  <string name="user_removed">User was successfully removed</string>
+
+  <string name="user_error_to_insert">An error occurred when insert the user</string>
+  <string name="user_error_to_update">An error occurred when update the user</string>
+  <string name="user_error_to_remove">An error occurred when remove the user</string>
+
+  <string name="update">Update</string>
+  <string name="remove">Remove</string>
+  <string name="add">Add</string>
+</resources>

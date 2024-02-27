@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="8dp"
+  app:cardElevation="4dp"
+  app:cardBackgroundColor="?attr/colorOnSurfaceInverse"
+  app:cardCornerRadius="8dp">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="10dp">
+
+    <ImageView
+      android:id="@+id/img_menu"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/ic_menu"
+      android:layout_alignParentEnd="true" />
+
+    <TextView
+      android:id="@+id/txt_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toStartOf="@id/img_menu"
+      android:layout_marginEnd="5dp"
+      android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+      android:textSize="14sp"
+      android:textColor="?attr/colorPrimary"
+      android:maxLines="1" />
+
+    <TextView
+      android:id="@+id/txt_username"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/txt_name"
+      android:layout_marginEnd="5dp"
+      android:layout_toStartOf="@id/img_menu"
+      android:textSize="12sp"
+      android:layout_marginTop="2dp"
+      android:maxLines="1" />
+
+    <TextView
+      android:id="@+id/txt_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/txt_username"
+      android:layout_marginEnd="5dp"
+      android:layout_toStartOf="@id/img_menu"
+      android:textSize="12sp"
+      android:layout_marginTop="2dp"
+      android:maxLines="1" />
+
+  </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
